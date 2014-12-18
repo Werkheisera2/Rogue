@@ -50,7 +50,7 @@ namespace Rogue
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             background = Content.Load<Texture2D>(@"Test\Background");
-            tilesheet = Content.Load<Texture2D>(@"Test\Tilesheet");
+            tilesheet = Content.Load<Texture2D>(@"Test\RogueTitle");
             spritesheet = Content.Load<Texture2D>(@"Test\Spritesheet");
             cursortexture = Content.Load<Texture2D>(@"Test\Cursor");
             ui = Content.Load<Texture2D>(@"Test\Interface");
